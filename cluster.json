@@ -1,0 +1,19 @@
+{
+    "__default__": {
+        "account": "larsms",
+        "job-name": "RNAseq",
+        "time": "1:00:00",
+        "ntasks": 1,
+        "cpus-per-task": 1,
+        "nodes": 1,
+        "mem": "4G",
+        "partition": "batch",
+        "mail": "kwells4@stanford.edu",
+        "type": "FAIL"
+    },
+    "align": {
+        "job-name": "align",
+        "cpus-per-task": 10,
+        "mem": "30G"
+    }
+}

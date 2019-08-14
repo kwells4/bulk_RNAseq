@@ -1,0 +1,17 @@
+##### aligning information #####
+
+# Sample sheet. This is the path to the sample sheet. Should be a tab delimited
+# tsv file with the one column titled "sample" and a second column titled
+# "fastq1" with filenames relating to each sample. If paired end sequencing was
+# done, another columen should be titled "fastq2" with filenames for read 2.
+sample_sheet: /path/to/samples.tsv
+
+# Reference. This should be the path to a directory created using star
+reference: /path/to/reference/star/
+
+# GTF. This is a path to the gtf file. Should match the genome fa used
+gtf: /path/to/reference/gtf/genes.gtf
+
+# data_dir. Location of the raw data 
+data_dir: /path/to/raw_data/
+
